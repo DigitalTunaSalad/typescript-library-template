@@ -1,0 +1,38 @@
+{
+  "name": "typescript-library-template",
+  "version": "0.1.0",
+  "description": "default template for creating a typescript library including unit tests",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --env.prod",
+    "start": "karma start --browsers PhantomJS",
+    "test": "karma start --browsers PhantomJS --no-auto-watch --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitaltunasalad/typescript-library-template.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Rasmus Sloth Jensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitaltunasalad/typescript-library-template/issues"
+  },
+  "homepage": "https://github.com/digitaltunasalad/typescript-library-template#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "awesome-typescript-loader": "^4.0.1",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.13",
+    "phantomjs-prebuilt": "^2.1.16",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-merge": "^4.1.2"
+  }
+}

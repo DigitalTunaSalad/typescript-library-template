@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "declaration": true,
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "exclude": [
+        "dist",
+        "node_modules"
+    ],
+    "types": [
+        "jasmine"
+    ],
+    "typeRoots": [
+        "node_modules/@types"
+    ]
+}
